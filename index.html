@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweetness</title>
+    <!-- Link referenciando o CSS -->
+     <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <!-- Header com Nome e Logo da empresa e links das redes sociais  -->
+    <header>
+        <div class = "h1">
+            <h1> <img src="images/logo.png" alt ="Logo"> Sweetness</h1>
+        </div>
+    </header>
+
+    <!-- Nav com Menu link na página para informações da Empresa, Serviços e Contato  -->
+    <nav class="menu">
+        <ul>
+            <li><a href=#descricao>Sweetness</a></li>
+            <li><a href="#Contact">Contact Us</a></li> 
+            <li><a href="#Clients">Clients</a></li>   
+        </ul>
+    </nav>
+    
+    <!-- Imagem ilustrativa dos produtos da empresa  -->
+    <div class="container">
+          <img src="images/conteudo.jpg" title="sweets" alt="sweets">
+    </div>
+
+    <!-- Main com conteúdo sobre a empresa e serviços, além de conter avaliações sobre a empresa   -->
+   <main>
+        <section>
+            <div class = "descricao" id="descricao">
+                <h2>Sweetness</h2>
+                <p>Sweetness was born from a simple idea: to make life sweeter, one bite at a time. We specialize in handcrafted desserts made with high-quality ingredients, unique recipes, and a lot of love. Our kitchen blends tradition and creativity, offering a wide variety of treats that bring comfort and joy to every occasion.</p>
+                <p>Whether you're celebrating a special day or just craving something delicious, Sweetness is here to turn those moments into memories. From custom-designed cakes to charming gift boxes and delightful seasonal collections, we believe that every sweet should feel like a warm hug.</p>
+                <p>More than a dessert shop, we are a passionate team dedicated to delivering excellence in flavor, presentation, and customer care. We also proudly collaborate with local cafés and events to spread sweetness everywhere we go.</p>
+              
+            </div>
+        </section>
+        <section>
+            <div class="serviços" id="serviços">
+                <h2>Our Main Services:</h2>
+                <li>🍰 Custom-made cakes and pies for every occasion</li>
+                <li>🎁 Special gift boxes for holidays and events</li>
+                <li>📦 Fast delivery with beautiful packaging</li>
+                <li>🤝 Event and café partnerships</li> 
+            </div>
+        </section>  
+       
+    </main>
+
+     <!-- Form com Imagem ilustrativa e espaço para formulário de contato  -->  
+    <div class="container_2">
+        <div id = "Contact"></div>
+            <div class="image-box">
+                <img src="images/imagem.png" title="sweets" alt="sweets">
+            </div>
+
+            <div class="form-box"> 
+                <h2>Contact Us</h2>
+                <form action="/submit-form" method="POST">
+                    <label for ="name">Name:</label><br>
+                    <input type="text" id="name" name="name" require><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+            
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br>
+            
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+    </div>
+    <section>
+        <aside class="testemunho">
+            <div class="cliente-foto">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Miley pic">
+            </div>
+            <div class="conteudo" id="Clients">
+                <div class="avaliacao">★★★★★</div>
+                <div class="texto">"The best recipes I've ever eaten in my life! Everything was excellent!"</div>
+                <div class="autor">– Miley, about: brownies</div>
+            </div>
+        </aside>
+    </section>
+
+     <!-- Footer Rodapé com informações para contato  -->
+    <footer> 
+        <p> 2025 - All rights reserved </p>
+        <P> 2459 Elmwood Avenue
+            Springfield, IL 62704
+            United States </P>
+        <p>+1 (217) 555-0137</p>
+        <p>Sweetness © </p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/_Sweetness" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/@Sweetness" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/119999999" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+            </a>
+          </div>
+    </footer>
+</body>
+</html>
